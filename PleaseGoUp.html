@@ -200,7 +200,7 @@ End of Info Section-->
     <div class="inner container" style="color:black">
         <div class="row">
             <div class="col-md-4 d-flex align-items-center justify-content-md-start justify-content-center">
-               <p style="text-align:center">© <span class="icon -copyright"></span> Theo Usher 2025</p>
+               <p style="text-align:center">© <span class="icon -copyright"></span> Theo Usher <span id="copyright-year"></span></p>
                 <!--<p class="mb-0">Based on a design by <a href="https://html5up.net" target="_blank">FreeHTML5.co</a></p>-->
             </div>
 
@@ -242,5 +242,6 @@ End of Info Section-->
 
 	<!-- Main JS -->
 	<script src="js/app.min.js "></script>
+<script>document.getElementById('copyright-year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
